@@ -1,0 +1,52 @@
+footer {
+    display: grid;
+    grid-template-areas: 
+    "block1 block2 block3";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(190, 190, 190, 0.1);
+    margin-top: 10px;
+}
+
+footer h4 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+#bloc1 {
+    grid-area: block1;
+    padding: 20px;
+}
+
+#bloc2 {
+    grid-area: block2;
+    padding: 20px;
+}
+
+#bloc3 {
+    grid-area: block3;
+    padding: 20px;
+}
+
+#bloc1 a {
+    text-decoration: underline;
+}
+
+#bloc1 p {
+    margin-top: 20px;
+}
+
+#bloc2 ul {
+    margin-left: 20px;
+}
+
+#bloc2 li {
+    list-style: square;
+}
+
+#bloc3 ul {
+    margin-left: 20px;
+}
+
+#bloc3 li {
+    list-style: square;
+}

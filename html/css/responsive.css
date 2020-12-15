@@ -1,0 +1,63 @@
+/* Blog Homepage */
+
+@media screen and (max-width: 540px)
+{
+.container nav ul {
+    display: block;
+}
+
+#postcard{
+    display: block;
+    grid-template-areas: none;
+    grid-template-columns: none;
+}
+
+form {
+    text-align: left;
+}
+
+.inputStyle {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.submit{
+    margin: 0;
+}
+#subscribe h1, #subscribe p{
+    text-align: left;
+}
+
+/* Blog Post */
+
+header {
+    display: block;
+}
+
+header h1{
+    display: none;
+}
+
+.linkOne {
+    position: unset;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.linkTwo {
+    position: unset;
+    display: block;
+}
+
+.noneDisplayed{
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+.displayedUl{
+    display: none;
+}
+.noneDisplayedUl{
+    display: block;
+}
+}

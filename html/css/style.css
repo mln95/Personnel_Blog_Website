@@ -1,0 +1,13 @@
+@import './layout.css';
+@import './footer.css';
+@import './form.css';
+@import './responsive.css';
+body,a,p,ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3f3f3f;
+    font-size: 14px;
+}
